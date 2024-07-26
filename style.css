@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: lightcoral;
+}
+
+.container{
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.container h1{
+    font-size: 25px;
+    color: rgb(206, 69, 91);
+    font-weight: 650;
+    border-bottom: 1px solid rgb(206, 69, 91);
+    padding-bottom: 30px;
+}
+
+.quiz{
+    padding: 20px 0;
+
+}
+.quiz h2{
+    font-size: 18px;
+    color: rgb(206, 69, 91);
+    font-weight: 450;
+}
+
+.btn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(206, 69, 91);
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid rgb(206, 69, 91);
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]){
+    background:  rgb(206, 69, 91);
+    color: white;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#submit{
+    background-color: rgb(206, 69, 91);
+    color: white;
+    font-weight: 500;
+    width: 150px;
+    border: 0px solid white;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+.correct{
+    background: green;
+    color: white;
+    transition: none;
+
+}
+.incorrect{
+    background: red;
+    color: white;
+}
