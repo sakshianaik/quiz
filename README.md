@@ -1,4 +1,4 @@
-# quiz
-Here is the website link:
+# FUN QUIZ
+Here is the quiz link:
 https://jvsptquiz.netlify.app
 
